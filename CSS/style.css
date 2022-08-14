@@ -1,0 +1,319 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap'); */
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Condensed&family=Source+Sans+Pro&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.background {
+  background-color: #313132;
+  background-blend-mode: transparent;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  backdrop-filter: blur(8px);
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav-list {
+  width: 100%;
+  display: flex;
+  padding: 0 11.5px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 12px 22px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: lightgray;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10.8px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: white;
+}
+.bi {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.bi:hover {
+  color: white;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  height: 110vh;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+/* FIRST SECTION */
+.h1super {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50%;
+}
+.h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.hyperlinks,
+.shopnow {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  font-stretch: expanded;
+}
+.box-main {
+  padding-bottom: 30%;
+}
+
+.special {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  background-color: #f5f5f7;
+  text-align: center;
+  padding-top: 15px;
+}
+
+a:link {
+  color: #0066cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0066cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8db8e4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.red {
+  color: #ca2166;
+}
+
+.firstMac {
+  width: 500px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 155px;
+  align-self: center;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 15px;
+}
+
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+.firstHalf {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 400px;
+}
+.sectionTag {
+  /* font-family: "Roboto Condensed", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  padding-right: 10px;
+  padding-top: 100px;
+  font-stretch: expanded;
+  display: flex;
+}
+
+.second {
+  background-color: #fbfbfd;
+}
+
+.super {
+  font-size: 27px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.m2chip {
+  float: right;
+  padding-bottom: 100px;
+}
+.hyperlinks:link {
+  color: #0066cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.hyperlinks:visited {
+  color: #0066cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.hyperlinks:hover {
+  color: #8db8e4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.hyperlinks:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.sechyperlink {
+  font-size: 23px;
+  font-weight: thin;
+  padding-left: 60px;
+}
+
+.trisection {
+  background-color: #fbfbfd;
+  height: 100vh;
+}
+.iphone13 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  padding-top: 40px;
+}
+
+.h2-iphone {
+  font-size: 30px;
+}
+
+.learn-iphone {
+  float: left;
+  padding-left: 580px;
+  font-size: 20px;
+}
+.learn-buy {
+  float: left;
+  padding-left: 70px;
+  font-size: 20px;
+}
+
+.iphone-img {
+  height: 380px;
+  padding-left: 350px;
+}
+
+@media only screen and (max-width: 959px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .nav-list {
+    flex-direction: column;
+    padding: 20px;
+    transition: all 0.5s ease-out;
+  }
+  .navbar {
+    height: 500px;
+    flex-direction: column;
+    transition: all 0.3s ease-in;
+  }
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  #search {
+    width: 100%;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .text-small {
+    text-align: center;
+  }
+  .text-big {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+    padding: 20px;
+  }
+  .firstMac {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 155px;
+    align-self: center;
+  }
+}
